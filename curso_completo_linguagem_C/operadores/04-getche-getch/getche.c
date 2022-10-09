@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 
-int main(int argc, char const *argv[])
+int main()
 {
 
     char ch;
     printf("\nPressione uma tecla: ");
     ch = getche();
-    printf("A tecla sucessora ASCII é: %C", ch);
+    printf("\nA tecla sucessora ASCII é: %C\n", ch + 1);
 
     system("PAUSE");
     return 0;
