@@ -11,4 +11,5 @@ int main()
 
     printf("N = %d  X=%d", n, x);
     return 0;
+    
 }
